@@ -1,11 +1,5 @@
 삼겹살 먹고싶다
-    pivot, ptr = nums[r], l
-    for i in range(l, r):
-        if nums[i] <= pivot:
-            # Swapping values smaller than the pivot to the front
-            nums[i], nums[ptr] = nums[ptr], nums[i]
-            ptr += 1
-    # Finally swapping the last element with the pointer indexed number
+  집에 가고싶다    # Finally swapping the last element with the pointer indexed number
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return ptr
  
